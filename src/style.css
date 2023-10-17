@@ -1,145 +1,75 @@
-/* .gallery {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .search-form {
-    background-color: rgb(12, 139, 5);
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 12px;
-    margin-bottom: 20px;
-  }
-  
-  .search-form input {
-    width: 500px;
-    height: 40px;
-    padding-left: 10px;
-    border-radius: 4px;
-    border: none;
-    font-size: 20px;
-  }
-  
-  .search-form button {
-    border-radius: 4px;
-    border: none;
-    font-size: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: lightblue;
-    cursor: pointer;
-  }
-  
-  .load-more {
-    display: flex;
-    border-radius: 4px;
-    border: none;
-    font-size: 20px;
-    padding: 15px;
-    background-color: lightblue;
-    cursor: pointer;
-    margin: 50px auto;
-  }
-  
-  .photo-card {
-    background-color: rgb(205, 250, 250);
-    border-radius: 10px;
-    padding: 10px;
-  }
-  
-  .photo-card img {
-    width: 350px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  .info {
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(165, 230, 230);
-    padding-top: 12px;
-    padding-bottom: 10px;
-    border-radius: 8px;
-  }
-  
-  .hidden {
-    display: none;
-  } */
-
-  /* Стилі для тіла сторінки */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Стилі для заголовка */
-  h1 {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  /* Стилі для форми пошуку */
-  .search-form {
-    text-align: center;
-    margin: 20px auto;
-  }
-  
-  .search-form input[type="text"] {
-    width: 80%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .search-form button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  /* Стилі для галереї зображень */
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  /* Стилі для кнопки "Load more" */
-  .load-more {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  /* Приклад стилів для зображень (застосовувати за потреби) */
-  .gallery img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Приклад стилів для стану фокусу в полі вводу */
-  .search-form input[type="text"]:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px #007bff;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стилі для заголовка */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Стилі для форми пошуку */
+.search-form {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.search-form input[type='text'] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-form button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Стилі для галереї зображень */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Стилі для кнопки "Load more" */
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Приклад стилів для зображень (застосовувати за потреби) */
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Приклад стилів для стану фокусу в полі вводу */
+.search-form input[type='text']:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.hidden {
+  display: none;
+}

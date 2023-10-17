@@ -45,10 +45,7 @@ async function onLoadMoreClick() {
   pageCounter += 1;
   const moreResult = await picturesPixabay.fetchByQuery(pageCounter);
   console.log(pageCounter);
-  // почекай поки виконається цей проміс, і запиши його результат в змінну
 
-  // console.log(moreResult.totalHits);
-  // console.log(createMarkup(pics));
   refs.pictContainer.insertAdjacentHTML(
     'beforeend',
     createMarkup(moreResult.hits)
@@ -61,8 +58,6 @@ async function onLoadMoreClick() {
       "We're sorry, but you've reached the end of search results."
     );
   }
-
-  // * end
 }
 
 function clearPictContainer() {
